@@ -5,7 +5,6 @@ A cool cloud crm utility
 ## Getting Started
 
 ```bash
-cd scripts/cool-crm
 npm install
 ```
 
