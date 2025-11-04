@@ -1,0 +1,31 @@
+{
+  "name": "cool-crm",
+  "version": "1.0.0",
+  "description": "Fetch company data from DealCloud CRM",
+  "main": "cool-crm.ts",
+  "scripts": {
+      "start": "ts-node cool-crm.ts",
+      "build": "tsc",
+      "run": "node dist/cool-crm.js"
+  },
+  "bin": {
+      "cool-crm": "./cool-crm.ts"
+  },
+  "keywords": [
+      "dealcloud",
+      "crm",
+      "company"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "node-fetch": "^2.7.0",
+      "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+      "@types/node": "^20.0.0",
+      "@types/node-fetch": "^2.6.11",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.0.0"
+  }
+}
