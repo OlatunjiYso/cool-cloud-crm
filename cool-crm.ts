@@ -25,7 +25,6 @@ const CONFIG = {
         process.env.DEALCLOUD_CLIENT_SECRET || '',
     entityId: process.env.DEALCLOUD_ENTITY_ID || ''
 }
-console.log('process.env.DEALCLOUD_BASE_URL', )
 
 // Types
 interface TokenResponse {
